@@ -54,14 +54,14 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Welcome to Our Customer Service Chatbot! How can I assist you today?");
+        System.out.println("Welcome to Orange Customer Service Chatbot! How can I assist you today?");
 
         while (true) {
             System.out.print("You: ");
             String userInput = scanner.nextLine().toLowerCase();
 
             if (userInput.equals("exit")) {
-                System.out.println("Chatbot: Thank you for using Our Customer Service. Goodbye!");
+                System.out.println("Chatbot: Thank you for using Orange Customer Service. Goodbye!");
                 break;
             }
 
